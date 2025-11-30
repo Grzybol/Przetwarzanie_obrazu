@@ -51,6 +51,8 @@
             Image2Label = new Label();
             Image3Label = new Label();
             Histbtn = new Button();
+            button1 = new Button();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)H).BeginInit();
@@ -65,9 +67,10 @@
             // pictureBox1
             // 
             pictureBox1.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox1.Location = new Point(12, 31);
+            pictureBox1.Location = new Point(14, 41);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(571, 606);
+            pictureBox1.Size = new Size(652, 807);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -78,9 +81,10 @@
             // 
             // OpenFilebtn1
             // 
-            OpenFilebtn1.Location = new Point(850, 676);
+            OpenFilebtn1.Location = new Point(971, 901);
+            OpenFilebtn1.Margin = new Padding(3, 4, 3, 4);
             OpenFilebtn1.Name = "OpenFilebtn1";
-            OpenFilebtn1.Size = new Size(111, 23);
+            OpenFilebtn1.Size = new Size(127, 31);
             OpenFilebtn1.TabIndex = 1;
             OpenFilebtn1.Text = "Otwórz plik 1";
             OpenFilebtn1.UseVisualStyleBackColor = true;
@@ -89,40 +93,45 @@
             // pictureBox2
             // 
             pictureBox2.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox2.Location = new Point(601, 31);
+            pictureBox2.Location = new Point(687, 41);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(571, 606);
+            pictureBox2.Size = new Size(652, 807);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // H
             // 
             H.LargeChange = 100;
-            H.Location = new Point(3, 686);
+            H.Location = new Point(3, 915);
+            H.Margin = new Padding(3, 4, 3, 4);
             H.Maximum = 360;
             H.Name = "H";
-            H.Size = new Size(292, 45);
+            H.Size = new Size(334, 56);
             H.TabIndex = 3;
             H.Value = 100;
             H.Scroll += H_Scroll;
             // 
             // S
             // 
-            S.Location = new Point(3, 728);
+            S.Location = new Point(3, 971);
+            S.Margin = new Padding(3, 4, 3, 4);
             S.Maximum = 255;
             S.Name = "S";
-            S.Size = new Size(292, 45);
+            S.Size = new Size(334, 56);
             S.TabIndex = 4;
             S.Value = 100;
             S.Scroll += S_Scroll;
             // 
             // V
             // 
-            V.Location = new Point(3, 768);
+            V.Location = new Point(3, 1024);
+            V.Margin = new Padding(3, 4, 3, 4);
             V.Maximum = 255;
             V.Name = "V";
-            V.Size = new Size(292, 45);
+            V.Size = new Size(334, 56);
             V.TabIndex = 5;
             V.Value = 100;
             V.Scroll += V_Scroll;
@@ -130,10 +139,11 @@
             // H2
             // 
             H2.LargeChange = 100;
-            H2.Location = new Point(374, 676);
+            H2.Location = new Point(427, 901);
+            H2.Margin = new Padding(3, 4, 3, 4);
             H2.Maximum = 360;
             H2.Name = "H2";
-            H2.Size = new Size(292, 45);
+            H2.Size = new Size(334, 56);
             H2.TabIndex = 6;
             H2.Value = 150;
             H2.Scroll += H2_Scroll;
@@ -141,10 +151,11 @@
             // S2
             // 
             S2.LargeChange = 100;
-            S2.Location = new Point(374, 727);
+            S2.Location = new Point(427, 969);
+            S2.Margin = new Padding(3, 4, 3, 4);
             S2.Maximum = 255;
             S2.Name = "S2";
-            S2.Size = new Size(292, 45);
+            S2.Size = new Size(334, 56);
             S2.TabIndex = 7;
             S2.Value = 255;
             S2.Scroll += S2_Scroll;
@@ -152,67 +163,75 @@
             // V2
             // 
             V2.LargeChange = 100;
-            V2.Location = new Point(374, 764);
+            V2.Location = new Point(427, 1019);
+            V2.Margin = new Padding(3, 4, 3, 4);
             V2.Maximum = 255;
             V2.Name = "V2";
-            V2.Size = new Size(292, 45);
+            V2.Size = new Size(334, 56);
             V2.TabIndex = 8;
             V2.Value = 255;
             V2.Scroll += V2_Scroll;
             // 
             // Htxt
             // 
-            Htxt.Location = new Point(300, 684);
+            Htxt.Location = new Point(343, 912);
+            Htxt.Margin = new Padding(3, 4, 3, 4);
             Htxt.Name = "Htxt";
-            Htxt.Size = new Size(41, 23);
+            Htxt.Size = new Size(46, 27);
             Htxt.TabIndex = 9;
             Htxt.Leave += Htxt_Leave;
             // 
             // Stxt
             // 
-            Stxt.Location = new Point(300, 727);
+            Stxt.Location = new Point(343, 969);
+            Stxt.Margin = new Padding(3, 4, 3, 4);
             Stxt.Name = "Stxt";
-            Stxt.Size = new Size(41, 23);
+            Stxt.Size = new Size(46, 27);
             Stxt.TabIndex = 10;
             Stxt.Leave += Stxt_Leave;
             // 
             // Vtxt
             // 
-            Vtxt.Location = new Point(300, 781);
+            Vtxt.Location = new Point(343, 1041);
+            Vtxt.Margin = new Padding(3, 4, 3, 4);
             Vtxt.Name = "Vtxt";
-            Vtxt.Size = new Size(41, 23);
+            Vtxt.Size = new Size(46, 27);
             Vtxt.TabIndex = 11;
             Vtxt.Leave += Vtxt_Leave;
             // 
             // H2txt
             // 
-            H2txt.Location = new Point(682, 684);
+            H2txt.Location = new Point(779, 912);
+            H2txt.Margin = new Padding(3, 4, 3, 4);
             H2txt.Name = "H2txt";
-            H2txt.Size = new Size(41, 23);
+            H2txt.Size = new Size(46, 27);
             H2txt.TabIndex = 12;
             H2txt.Leave += H2txt_Leave;
             // 
             // S2txt
             // 
-            S2txt.Location = new Point(682, 728);
+            S2txt.Location = new Point(779, 971);
+            S2txt.Margin = new Padding(3, 4, 3, 4);
             S2txt.Name = "S2txt";
-            S2txt.Size = new Size(41, 23);
+            S2txt.Size = new Size(46, 27);
             S2txt.TabIndex = 13;
             S2txt.Leave += S2txt_Leave;
             // 
             // V2txt
             // 
-            V2txt.Location = new Point(682, 768);
+            V2txt.Location = new Point(779, 1024);
+            V2txt.Margin = new Padding(3, 4, 3, 4);
             V2txt.Name = "V2txt";
-            V2txt.Size = new Size(41, 23);
+            V2txt.Size = new Size(46, 27);
             V2txt.TabIndex = 14;
             V2txt.Leave += V2txt_Leave;
             // 
             // Recalculatebtn
             // 
-            Recalculatebtn.Location = new Point(1052, 676);
+            Recalculatebtn.Location = new Point(1202, 901);
+            Recalculatebtn.Margin = new Padding(3, 4, 3, 4);
             Recalculatebtn.Name = "Recalculatebtn";
-            Recalculatebtn.Size = new Size(75, 23);
+            Recalculatebtn.Size = new Size(86, 31);
             Recalculatebtn.TabIndex = 15;
             Recalculatebtn.Text = "Przelicz";
             Recalculatebtn.UseVisualStyleBackColor = true;
@@ -221,18 +240,20 @@
             // pictureBox3
             // 
             pictureBox3.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox3.Location = new Point(1190, 31);
+            pictureBox3.Location = new Point(1360, 41);
+            pictureBox3.Margin = new Padding(3, 4, 3, 4);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(571, 606);
+            pictureBox3.Size = new Size(652, 807);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 16;
             pictureBox3.TabStop = false;
             // 
             // OpenFilebtn2
             // 
-            OpenFilebtn2.Location = new Point(850, 708);
+            OpenFilebtn2.Location = new Point(971, 944);
+            OpenFilebtn2.Margin = new Padding(3, 4, 3, 4);
             OpenFilebtn2.Name = "OpenFilebtn2";
-            OpenFilebtn2.Size = new Size(111, 23);
+            OpenFilebtn2.Size = new Size(127, 31);
             OpenFilebtn2.TabIndex = 20;
             OpenFilebtn2.Text = "Otwórz plik 2";
             OpenFilebtn2.UseVisualStyleBackColor = true;
@@ -241,45 +262,70 @@
             // Image1Label
             // 
             Image1Label.AutoSize = true;
-            Image1Label.Location = new Point(12, 9);
+            Image1Label.Location = new Point(14, 12);
             Image1Label.Name = "Image1Label";
-            Image1Label.Size = new Size(38, 15);
+            Image1Label.Size = new Size(50, 20);
             Image1Label.TabIndex = 21;
             Image1Label.Text = "label1";
             // 
             // Image2Label
             // 
             Image2Label.AutoSize = true;
-            Image2Label.Location = new Point(601, 9);
+            Image2Label.Location = new Point(687, 12);
             Image2Label.Name = "Image2Label";
-            Image2Label.Size = new Size(38, 15);
+            Image2Label.Size = new Size(50, 20);
             Image2Label.TabIndex = 22;
             Image2Label.Text = "label2";
             // 
             // Image3Label
             // 
             Image3Label.AutoSize = true;
-            Image3Label.Location = new Point(1190, 13);
+            Image3Label.Location = new Point(1360, 17);
             Image3Label.Name = "Image3Label";
-            Image3Label.Size = new Size(38, 15);
+            Image3Label.Size = new Size(50, 20);
             Image3Label.TabIndex = 23;
             Image3Label.Text = "label3";
             // 
             // Histbtn
             // 
-            Histbtn.Location = new Point(1174, 678);
+            Histbtn.Location = new Point(1342, 904);
+            Histbtn.Margin = new Padding(3, 4, 3, 4);
             Histbtn.Name = "Histbtn";
-            Histbtn.Size = new Size(75, 23);
+            Histbtn.Size = new Size(86, 31);
             Histbtn.TabIndex = 24;
             Histbtn.Text = "histogram";
             Histbtn.UseVisualStyleBackColor = true;
             Histbtn.Click += HistBtn_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(1342, 944);
+            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Name = "button1";
+            button1.Size = new Size(215, 31);
+            button1.TabIndex = 25;
+            button1.Text = "histogram - rozciagniety";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(1202, 944);
+            button2.Margin = new Padding(3, 4, 3, 4);
+            button2.Name = "button2";
+            button2.Size = new Size(86, 54);
+            button2.TabIndex = 26;
+            button2.Text = "Rozmycie Gaussa";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click_1;
+            // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1802, 839);
+            ClientSize = new Size(1924, 1055);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Controls.Add(Histbtn);
             Controls.Add(Image3Label);
             Controls.Add(Image2Label);
@@ -302,6 +348,7 @@
             Controls.Add(pictureBox2);
             Controls.Add(OpenFilebtn1);
             Controls.Add(pictureBox1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "MainForm";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -342,5 +389,7 @@
         private Label Image2Label;
         private Label Image3Label;
         private Button Histbtn;
+        private Button button1;
+        private Button button2;
     }
 }

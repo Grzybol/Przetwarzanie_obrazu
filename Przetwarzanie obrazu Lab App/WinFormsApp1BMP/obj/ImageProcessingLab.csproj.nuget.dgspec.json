@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\akademia\\Przetwarzanie obrazu Lab App\\WinFormsApp1BMP\\ImageProcessingLab.csproj": {}
+    "C:\\Users\\f.smol\\OneDrive - Reply\\Documents\\Studia\\przetwarzanie_obrazow\\Przetwarzanie-obrazu-Lab-App\\Przetwarzanie obrazu Lab App\\WinFormsApp1BMP\\ImageProcessingLab.csproj": {}
   },
   "projects": {
-    "D:\\akademia\\Przetwarzanie obrazu Lab App\\WinFormsApp1BMP\\ImageProcessingLab.csproj": {
+    "C:\\Users\\f.smol\\OneDrive - Reply\\Documents\\Studia\\przetwarzanie_obrazow\\Przetwarzanie-obrazu-Lab-App\\Przetwarzanie obrazu Lab App\\WinFormsApp1BMP\\ImageProcessingLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\akademia\\Przetwarzanie obrazu Lab App\\WinFormsApp1BMP\\ImageProcessingLab.csproj",
+        "projectUniqueName": "C:\\Users\\f.smol\\OneDrive - Reply\\Documents\\Studia\\przetwarzanie_obrazow\\Przetwarzanie-obrazu-Lab-App\\Przetwarzanie obrazu Lab App\\WinFormsApp1BMP\\ImageProcessingLab.csproj",
         "projectName": "ImageProcessingLab",
-        "projectPath": "D:\\akademia\\Przetwarzanie obrazu Lab App\\WinFormsApp1BMP\\ImageProcessingLab.csproj",
-        "packagesPath": "C:\\Users\\tomas\\.nuget\\packages\\",
-        "outputPath": "D:\\akademia\\Przetwarzanie obrazu Lab App\\WinFormsApp1BMP\\obj\\",
+        "projectPath": "C:\\Users\\f.smol\\OneDrive - Reply\\Documents\\Studia\\przetwarzanie_obrazow\\Przetwarzanie-obrazu-Lab-App\\Przetwarzanie obrazu Lab App\\WinFormsApp1BMP\\ImageProcessingLab.csproj",
+        "packagesPath": "C:\\Users\\f.smol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\f.smol\\OneDrive - Reply\\Documents\\Studia\\przetwarzanie_obrazow\\Przetwarzanie-obrazu-Lab-App\\Przetwarzanie obrazu Lab App\\WinFormsApp1BMP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\f.smol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,9 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net7.0-windows7.0": {
@@ -74,24 +74,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -100,7 +82,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

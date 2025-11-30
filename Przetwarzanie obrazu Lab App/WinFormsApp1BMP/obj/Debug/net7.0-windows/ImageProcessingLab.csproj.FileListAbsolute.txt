@@ -28,3 +28,34 @@ D:\akademia\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-window
 D:\akademia\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\WinForms.DataVisualization.Utilities.dll
 D:\akademia\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\WinForms.DataVisualization.dll
 D:\akademia\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\WinFormsApp1BMP.ChartWindow.resources
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\ImageProcessingLab.exe
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\ImageProcessingLab.deps.json
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\ImageProcessingLab.runtimeconfig.json
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\ImageProcessingLab.dll
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\ImageProcessingLab.pdb
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\Emgu.CV.dll
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\Emgu.CV.Bitmap.dll
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\System.Drawing.Common.dll
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\System.Text.Encodings.Web.dll
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\System.Text.Json.dll
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\WinForms.DataVisualization.dll
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\bin\Debug\net7.0-windows\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\ImageProcessingLab.csproj.AssemblyReference.cache
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\WinFormsApp1BMP.ChartWindow.resources
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\WinFormsApp1BMP.MainForm.resources
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\WinFormsApp1BMP.PictureWindow.resources
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\ImageProcessingLab.csproj.GenerateResource.cache
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\ImageProcessingLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\ImageProcessingLab.AssemblyInfoInputs.cache
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\ImageProcessingLab.AssemblyInfo.cs
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\ImageProcessingLab.csproj.CoreCompileInputs.cache
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\ImageProcessingLab.sourcelink.json
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\ImagePro.FCD20393.Up2Date
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\ImageProcessingLab.dll
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\refint\ImageProcessingLab.dll
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\ImageProcessingLab.pdb
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\ImageProcessingLab.genruntimeconfig.cache
+C:\Users\f.smol\OneDrive - Reply\Documents\Studia\przetwarzanie_obrazow\Przetwarzanie-obrazu-Lab-App\Przetwarzanie obrazu Lab App\WinFormsApp1BMP\obj\Debug\net7.0-windows\ref\ImageProcessingLab.dll
