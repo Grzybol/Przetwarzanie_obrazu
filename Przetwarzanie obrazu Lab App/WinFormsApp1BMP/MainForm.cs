@@ -426,7 +426,20 @@ namespace WinFormsApp1BMP
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+        private void gauss_button_Click_1(object sender, EventArgs e)
+        {
+            {
+                if (_imageLoaded1 == null)
+                    return;
+
+                Bitmap blurred = utils.GaussianBlur(_imageLoaded1);
+                _imageLoaded1 = blurred;
+                pictureBox3.Image = _imageLoaded1;
+            }
+        }
+
+        private void hist_button_2_Click(object sender, EventArgs e)
         {
 
 
@@ -436,7 +449,7 @@ namespace WinFormsApp1BMP
 
             var naszObraz = _imageLoaded1;
 
-            // pobranie wymiarów obrazu
+            // pobranie wymiarow obrazu
             int wysokosc = naszObraz.Height;
             int szerokosc = naszObraz.Width;
             //
@@ -445,7 +458,7 @@ namespace WinFormsApp1BMP
             Bitmap bmpG = new Bitmap(szerokosc, wysokosc);
             Bitmap bmpB = new Bitmap(szerokosc, wysokosc);
             //
-            // pobranie wartości pixela
+            // pobranie wartosci pixela
             Color colorR, colorG, colorB;
             for (int i = 0; i < szerokosc; i++)
             {
@@ -477,7 +490,7 @@ namespace WinFormsApp1BMP
             }
 
 
-            // ROZCIĄGANIE HISTOGRAMU
+            // ROZCIAGANIE HISTOGRAMU
             // ===============================
 
             // Szukamy minimum i maksimum niezerowego
@@ -490,7 +503,7 @@ namespace WinFormsApp1BMP
             int minB = utils.FindMin(histogramB);
             int maxB = utils.FindMax(histogramB);
 
-            // "rozciągnięte" histogramy
+            // "rozciagniete" histogramy
             int[] stretchedR = new int[256];
             int[] stretchedG = new int[256];
             int[] stretchedB = new int[256];
@@ -567,18 +580,6 @@ namespace WinFormsApp1BMP
             ChartWindow chart = new ChartWindow(series, "Histogran obrazu - rozciagniety");
 
             chart.Show();
-        }
-
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-            {
-                if (_imageLoaded1 == null)
-                    return;
-
-                Bitmap blurred = utils.GaussianBlur(_imageLoaded1);
-                _imageLoaded1 = blurred;
-                pictureBox3.Image = _imageLoaded1;
-            }
         }
     }
 }

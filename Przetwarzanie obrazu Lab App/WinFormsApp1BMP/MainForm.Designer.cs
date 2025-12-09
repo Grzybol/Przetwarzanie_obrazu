@@ -50,9 +50,9 @@
             Image1Label = new Label();
             Image2Label = new Label();
             Image3Label = new Label();
-            Histbtn = new Button();
-            button1 = new Button();
-            button2 = new Button();
+            hist_button = new Button();
+            hist_button_2 = new Button();
+            gauss_button = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)H).BeginInit();
@@ -286,47 +286,47 @@
             Image3Label.TabIndex = 23;
             Image3Label.Text = "label3";
             // 
-            // Histbtn
+            // hist_button
             // 
-            Histbtn.Location = new Point(1342, 904);
-            Histbtn.Margin = new Padding(3, 4, 3, 4);
-            Histbtn.Name = "Histbtn";
-            Histbtn.Size = new Size(86, 31);
-            Histbtn.TabIndex = 24;
-            Histbtn.Text = "histogram";
-            Histbtn.UseVisualStyleBackColor = true;
-            Histbtn.Click += HistBtn_Click;
+            hist_button.Location = new Point(1342, 904);
+            hist_button.Margin = new Padding(3, 4, 3, 4);
+            hist_button.Name = "hist_button";
+            hist_button.Size = new Size(86, 31);
+            hist_button.TabIndex = 24;
+            hist_button.Text = "histogram";
+            hist_button.UseVisualStyleBackColor = true;
+            hist_button.Click += HistBtn_Click;
             // 
-            // button1
+            // hist_button_2
             // 
-            button1.Location = new Point(1342, 944);
-            button1.Margin = new Padding(3, 4, 3, 4);
-            button1.Name = "button1";
-            button1.Size = new Size(215, 31);
-            button1.TabIndex = 25;
-            button1.Text = "histogram - rozciagniety";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            hist_button_2.Location = new Point(1342, 944);
+            hist_button_2.Margin = new Padding(3, 4, 3, 4);
+            hist_button_2.Name = "hist_button_2";
+            hist_button_2.Size = new Size(215, 31);
+            hist_button_2.TabIndex = 25;
+            hist_button_2.Text = "histogram - rozciagniety";
+            hist_button_2.UseVisualStyleBackColor = true;
+            hist_button_2.Click += hist_button_2_Click;
             // 
-            // button2
+            // gauss_button
             // 
-            button2.Location = new Point(1202, 944);
-            button2.Margin = new Padding(3, 4, 3, 4);
-            button2.Name = "button2";
-            button2.Size = new Size(86, 54);
-            button2.TabIndex = 26;
-            button2.Text = "Rozmycie Gaussa";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click_1;
+            gauss_button.Location = new Point(1202, 944);
+            gauss_button.Margin = new Padding(3, 4, 3, 4);
+            gauss_button.Name = "gauss_button";
+            gauss_button.Size = new Size(86, 54);
+            gauss_button.TabIndex = 26;
+            gauss_button.Text = "Rozmycie Gaussa";
+            gauss_button.UseVisualStyleBackColor = true;
+            gauss_button.Click += gauss_button_Click_1;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1924, 1055);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(Histbtn);
+            Controls.Add(gauss_button);
+            Controls.Add(hist_button_2);
+            Controls.Add(hist_button);
             Controls.Add(Image3Label);
             Controls.Add(Image2Label);
             Controls.Add(Image1Label);
@@ -388,8 +388,8 @@
         private Label Image1Label;
         private Label Image2Label;
         private Label Image3Label;
-        private Button Histbtn;
-        private Button button1;
-        private Button button2;
+        private Button hist_button;
+        private Button hist_button_2;
+        private Button gauss_button;
     }
 }
