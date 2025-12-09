@@ -51,7 +51,7 @@ namespace ImageProcessingLab
 
             Bitmap result = new Bitmap(width, height);
 
-            // Na start kopiujemy cały obraz, żeby mieć brzegi bez kombinowania
+            // Na start kopiujemy caly obraz, zeby miec brzegi bez kombinowania
             for (int x = 0; x < width; x++)
             {
                 for (int y = 0; y < height; y++)
@@ -60,12 +60,12 @@ namespace ImageProcessingLab
                 }
             }
 
-            // Właściwe rozmycie tylko dla pikseli, które mają pełne sąsiedztwo 3x3
+            // Wlasciwe rozmycie tylko dla pikseli, ktore maja pelne sasiedztwo 3x3
             for (int x = 1; x < width - 1; x++)
             {
                 for (int y = 1; y < height - 1; y++)
                 {
-                    // 3x3 pikseli wokół (x,y)
+                    // 3x3 pikseli wokol (x,y)
                     Color c00 = source.GetPixel(x - 1, y - 1);
                     Color c01 = source.GetPixel(x, y - 1);
                     Color c02 = source.GetPixel(x + 1, y - 1);
@@ -95,7 +95,7 @@ namespace ImageProcessingLab
                          2 * c10.B + 4 * c11.B + 2 * c12.B +
                          c20.B + 2 * c21.B + c22.B) / 16;
 
-                    // Tu matematycznie i tak będzie w zakresie 0–255, więc bez clampów
+                    // Tu matematycznie i tak bedzie w zakresie 0–255, wiec bez clampow
                     result.SetPixel(x, y, Color.FromArgb(r, g, b));
                 }
             }
